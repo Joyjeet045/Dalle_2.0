@@ -12,7 +12,7 @@ const CreatePost = () => {
     prompt:'',
     photo:''
   })
-  const url='http://localhost:4000/'
+  const url='https://dall-e-6jog.onrender.com/'
   const [generatingImg,setgeneratingImg]=useState(false)
   const [loading,setLoading]=useState(false)
   const generateImage=async()=>{

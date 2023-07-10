@@ -15,7 +15,7 @@ const Home = () => {
   const [searchText,setSearchText]=useState('')
   const [results,setResults]=useState(null)
   const [searchtime,setSearchTime]=useState(null)
-  const url='http://localhost:4000/'
+  const url='https://dall-e-6jog.onrender.com/'
 
   const fetchPosts=async()=>{
   setLoading(true);
